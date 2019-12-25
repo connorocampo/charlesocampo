@@ -9,14 +9,12 @@
 
 @font-face {
   font-family: "Rubik Light";
-  src: local("Rubik Light"),
-    url(url(./assets/fonts/Rubik-Light.woff)format("woff");
+  src: local("Rubik Light"), url(./assets/fonts/Rubik-Light.woff) format("woff");
 }
 
 @font-face {
   font-family: "Rubik";
-  src: local("Rubik"),
-    url(url(./assets/fonts/Rubik-Regular.woff)format("woff");
+  src: local("Rubik"), url(./assets/fonts/Rubik-Regular.woff) format("woff");
 }
 
 @font-face {
