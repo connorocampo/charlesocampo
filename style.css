@@ -54,8 +54,42 @@ header {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.contact-link {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.contact-link:after,
+.contact-link:visited {
+  text-decoration: none;
+}
+
 #avatar {
   border-radius: 50%;
   height: 175px;
+  margin-bottom: 30px;
   width: 175px;
+}
+
+.bio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.tagline {
+  font-family: "Rubik Bold", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  width: 635px;
+  text-align: center;
 }
