@@ -31,7 +31,8 @@ body {
 header {
   color: #0366d6;
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
+  padding: 0 1em;
 }
 
 .header-container {
@@ -90,4 +91,14 @@ header {
   font-size: 36px;
   width: 635px;
   text-align: center;
+}
+
+/*
+** Responsive 
+*/
+
+@media screen and (max-width: 600px) {
+  .fa-envelope {
+    display: none;
+  }
 }
