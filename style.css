@@ -178,8 +178,14 @@ ul li {
 
 .recent-work-blub {
   font-size: 36px;
+  line-height: 1.25;
   max-width: 700px;
   text-align: center;
+}
+
+.recent-work-github-link {
+  color: #24292e;
+  text-decoration: underline;
 }
 
 hr {
@@ -204,6 +210,7 @@ hr {
 .contact-me-link {
   color: #24292e;
   font-size: 36px;
+  line-height: 1.25;
   text-decoration: underline;
 }
 
