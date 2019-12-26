@@ -253,11 +253,15 @@ footer {
   }
 
   .hero {
-    margin: 75px 0;
+    margin: 75px 0 100px 0;
   }
 
   .header-container {
     justify-content: center;
+  }
+
+  #avatar {
+    margin-bottom: 25px;
   }
 
   .tagline {
@@ -275,7 +279,7 @@ footer {
 
   .tagline {
     color: #24292e;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
   }
 
   #header-contact-mobile {
@@ -296,7 +300,6 @@ footer {
 
   .tech-container {
     border-radius: unset;
-    /* width: 325px; */
     box-shadow: unset;
     width: 100vw;
   }
