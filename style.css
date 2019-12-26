@@ -248,6 +248,10 @@ footer {
     padding: 0;
   }
 
+  #header-brand {
+    font-size: 32px;
+  }
+
   .header-container {
     justify-content: center;
   }
