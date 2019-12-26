@@ -35,6 +35,12 @@ header {
   padding: 0 1em;
 }
 
+.header {
+  font-family: "Rubik Bold", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 48px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -70,12 +76,12 @@ header {
   width: 175px;
 }
 
-.bio {
+.hero {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
+  margin: 125px 0;
 }
 
 .tagline {
@@ -89,8 +95,71 @@ header {
   font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 36px;
+  line-height: 1.25;
   width: 635px;
   text-align: center;
+}
+
+/* About Me */
+.about-me {
+  align-items: center;
+  background: #24292e;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-about-me {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.about-me-blurb {
+  font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  line-height: 1.25;
+
+  padding-bottom: 300px;
+  text-align: center;
+  max-width: 800px;
+}
+
+/* Tech */
+.tech {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tech-container {
+  background: #ffffff;
+  border: 1px solid #dae1e7;
+  border-radius: 25px;
+  width: 800px;
+  margin-top: -200px;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.laptop {
+  margin-bottom: 100px;
+}
+
+.header-tech {
+  color: #24292e;
+  margin-bottom: 100px;
+}
+
+ul li {
+  color: #0366d6;
+  font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  line-height: 2;
+  list-style: none;
 }
 
 /*
