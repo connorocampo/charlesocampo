@@ -244,6 +244,10 @@ footer {
 }
 
 @media screen and (max-width: 825px) {
+  header {
+    padding: 0;
+  }
+
   .header-container {
     justify-content: center;
   }
