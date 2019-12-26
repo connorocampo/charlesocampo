@@ -261,7 +261,9 @@ footer {
   }
 
   #avatar {
+    height: 150px;
     margin-bottom: 25px;
+    width: 150px;
   }
 
   .tagline {
