@@ -252,6 +252,10 @@ footer {
     font-size: 32px;
   }
 
+  .hero {
+    margin: 75px 0;
+  }
+
   .header-container {
     justify-content: center;
   }
