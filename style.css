@@ -291,7 +291,10 @@ footer {
   }
 
   .tech-container {
-    width: 325px;
+    border-radius: unset;
+    /* width: 325px; */
+    box-shadow: unset;
+    width: 100vw;
   }
 
   .header-tech {
