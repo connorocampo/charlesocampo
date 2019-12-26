@@ -283,7 +283,7 @@ footer {
   }
 
   .tech-container {
-    box-shadow: none;
+    width: 300px;
   }
 
   .header-tech {
