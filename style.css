@@ -120,7 +120,6 @@ header {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 36px;
   line-height: 1.25;
-
   padding-bottom: 300px;
   text-align: center;
   max-width: 800px;
@@ -138,6 +137,7 @@ header {
   background: #ffffff;
   border: 1px solid #dae1e7;
   border-radius: 25px;
+  box-shadow: 8px 8px 8px rgba(128, 128, 128, 0.1);
   width: 800px;
   margin-top: -200px;
   padding: 100px 0;
@@ -160,6 +160,68 @@ ul li {
   font-size: 36px;
   line-height: 2;
   list-style: none;
+}
+
+/* Recent Work */
+.recent-work {
+  align-items: center;
+  color: #24292e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-recent-work {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.recent-work-blub {
+  font-size: 36px;
+  max-width: 700px;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #dae1e7;
+  margin: 200px 0;
+}
+
+/* Contact Me */
+.contact-me {
+  align-items: center;
+  color: #24292e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.header-contact-me {
+  margin-bottom: 50px;
+}
+
+.contact-me-link {
+  color: #24292e;
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #fafbfc;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-github {
+  margin-right: 25px;
+}
+
+.fa-3x {
+  color: #24292e;
 }
 
 /*
