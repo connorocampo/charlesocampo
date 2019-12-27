@@ -82,7 +82,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 125px 0;
+  /* margin: 125px 0; */
+  height: 85vh;
 }
 
 .tagline {
@@ -253,9 +254,9 @@ footer {
     font-size: 32px;
   }
 
-  .hero {
+  /* .hero {
     margin: 75px 0 100px 0;
-  }
+  } */
 
   .header-container {
     justify-content: center;
